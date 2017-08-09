@@ -1,0 +1,38 @@
+/* Flickr widget */
+.flickr-photos {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	justify-content: space-between;
+}
+
+.flickr-photo {
+	list-style: none;
+	padding: 2px;
+	border: 1px solid #D7D7D7;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	transition: all 0.3s ease-in-out;
+}
+.flickr-photo:hover {
+	background: #D7D7D7;
+}
+
+.flickr-photo a {
+	display: block;
+	line-height: 0;
+}
+
+.flickr-error {
+	font-weight: bold;
+	color: #f00;
+}
